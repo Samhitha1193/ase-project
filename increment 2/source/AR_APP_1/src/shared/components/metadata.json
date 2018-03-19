@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "w320dp"
+  ],
+  "experiences": [
+    {
+      "vumark": "18842:1",
+      "experienceType": "vumark",
+      "index-keys": [
+        "urn:vuforia:vumark:18842:1"
+      ],
+      "title": {
+        "en": "AR APP 1"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expIndex=0#/Home?thing={{thingworx:thing}}&vumark={{vuforia:vumark}}",
+      "thumbnail": ""
+    }
+  ],
+  "accessType": "private",
+  "designedfor": []
+}
