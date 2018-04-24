@@ -1,0 +1,30 @@
+{
+  "experiences": [
+    {
+      "index-keys": [
+        "urn:vuforia:vumark:18842:1"
+      ],
+      "title": {
+        "en": "Studio Sample - Quadcopter"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Choice",
+      "url-template": "index.html?expIndex=0#/Choice",
+      "thumbnail": "public/Uploaded/gallery_thumbnail_drone.png",
+      "experienceType": "vumark",
+      "vumark": "18842:1"
+    }
+  ],
+  "requires": [
+    "w320dp"
+  ],
+  "accessType": "public"
+}

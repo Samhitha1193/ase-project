@@ -1,0 +1,1133 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-069bd631-6ee0-4ca3-967e-e5dd1eaedc2d",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "width": "0.05",
+            "x": "0.0000",
+            "y": "0.0000",
+            "z": "-0.18",
+            "rx": "0.00",
+            "ry": "0.00",
+            "rz": "0.00",
+            "tracking-indicator": "false",
+            "widget-name": "thingMark-1"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493391177932",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496166869291",
+              "source-type": "data",
+              "source-name": "markerRotation",
+              "source-item-type": "value",
+              "source-item-name": "markerRotation",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['markerRotation']",
+              "to-property": "rx"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "model-1",
+            "src": "Uploaded/ptc-quadcopter-animated.pvz",
+            "x": "0.00005014985799789429",
+            "y": "0.04547261819243431",
+            "z": "0.000059954822063446045",
+            "sequence": "Uploaded/l-Creo 3D - ReplaceBattery.pvi",
+            "widget-name": "Quadcopter",
+            "playstarted-expression": "app.params.hintsVisible = false;",
+            "playstopped-expression": "app.params.hintsVisible = true;"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493393338593",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493393341425",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493393344137",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493396186990",
+              "source-type": "data",
+              "source-name": "tiltZ",
+              "source-item-type": "value",
+              "source-item-name": "tiltZ",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['tiltZ']",
+              "to-property": "rz"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493396668463",
+              "source-type": "data",
+              "source-name": "tiltX",
+              "source-item-type": "value",
+              "source-item-name": "tiltX",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['tiltX']",
+              "to-property": "rx"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "eventbind-id": "eb-1493411954255",
+              "src-type": "event",
+              "src-label": "Application Event",
+              "src-name": "app",
+              "src-event": "replaceBattery",
+              "handler-type": "ui",
+              "handler-name": "model-1",
+              "handler-service": "playAll",
+              "handler": "app.view[\"Home\"].wdg[\"model-1\"].svc.playAll"
+            },
+            "name": "twx-eventbind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "modelItem-5",
+            "model": "model-1",
+            "idpath": "/0/0",
+            "scale": "1.0000",
+            "x": "-0.1061",
+            "y": "0.0070",
+            "z": "0.1061",
+            "rx": "0.00",
+            "ry": "40.66",
+            "rz": "0.00",
+            "widget-name": "Propeller-1"
+          },
+          "name": "twx-dt-modelitem",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1496166002344",
+              "source-type": "data",
+              "source-name": "ry",
+              "source-item-type": "value",
+              "source-item-name": "ry",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ry']",
+              "to-property": "ry"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "modelItem-3",
+            "model": "model-1",
+            "idpath": "/0/1",
+            "scale": "1.0000",
+            "x": "-0.1061",
+            "y": "0.0070",
+            "z": "-0.1061",
+            "rx": "0.00",
+            "ry": "40.66",
+            "rz": "0.00",
+            "widget-name": "Propeller-2"
+          },
+          "name": "twx-dt-modelitem",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493391419469",
+              "source-type": "data",
+              "source-name": "ry",
+              "source-item-type": "value",
+              "source-item-name": "ry",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ry']",
+              "to-property": "ry"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "modelItem-4",
+            "model": "model-1",
+            "idpath": "/0/2",
+            "scale": "1.0000",
+            "x": "0.1061",
+            "y": "0.0070",
+            "z": "-0.1061",
+            "rx": "-0.00",
+            "ry": "40.66",
+            "rz": "0.00",
+            "widget-name": "Propeller-3"
+          },
+          "name": "twx-dt-modelitem",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493391426500",
+              "source-type": "data",
+              "source-name": "ry",
+              "source-item-type": "value",
+              "source-item-name": "ry",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ry']",
+              "to-property": "ry"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "modelItem-2",
+            "model": "model-1",
+            "idpath": "/0/3",
+            "scale": "1.0000",
+            "x": "0.1061",
+            "y": "0.0070",
+            "z": "0.1061",
+            "rx": "0.00",
+            "ry": "40.66",
+            "rz": "0.00",
+            "widget-name": "Propeller-4"
+          },
+          "name": "twx-dt-modelitem",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493391411295",
+              "source-type": "data",
+              "source-name": "ry",
+              "source-item-type": "value",
+              "source-item-name": "ry",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ry']",
+              "to-property": "ry"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-1",
+            "text": "Go Forward",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "-0.2000",
+            "y": "0.0450",
+            "z": "-0.0000",
+            "rx": "-60",
+            "ry": "0.00",
+            "rz": "0.00",
+            "visible": "false",
+            "height": "0.014",
+            "widget-name": "Go Forward"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493665452973",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493665602510",
+                "filter-name": "goForwardX",
+                "filter-body": "return JSON.parse(value) - 0.2"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493665456822",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493665460125",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493749538234",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-5",
+            "text": "Go Backward",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "0.2000",
+            "y": "0.0450",
+            "z": "-0.0000",
+            "rx": "-60",
+            "ry": "0.00",
+            "rz": "0.00",
+            "visible": "false",
+            "height": "0.014",
+            "widget-name": "Go Backward"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493667037366",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493667079519",
+                "filter-name": "goBackwardX",
+                "filter-body": "return JSON.parse(value) + 0.2"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667041280",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667045119",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493747941794",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-6",
+            "text": "Go Right",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "-0.0000",
+            "y": "0.045",
+            "z": "-0.2",
+            "rx": "-90.00",
+            "ry": "90",
+            "rz": "0.00",
+            "visible": "false",
+            "height": "0.014",
+            "widget-name": "Go Right"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493666049913",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493666055183",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493666059354",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493666831827",
+                "filter-name": "goRightZ",
+                "filter-body": "return JSON.parse(value) - 0.2"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493747950576",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-2",
+            "text": "Go Left",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "-0.0000",
+            "y": "0.045",
+            "z": "0.2000",
+            "rx": "-90.00",
+            "ry": "90",
+            "rz": "0.00",
+            "visible": "false",
+            "height": "0.014",
+            "widget-name": "Go Left"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493666864606",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493666868510",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493666872206",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493666942822",
+                "filter-name": "goLeftZ",
+                "filter-body": "return JSON.parse(value) + 0.2"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493747928141",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-7",
+            "text": "Go Up",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "0.0000",
+            "y": "0.1800",
+            "z": "0.0000",
+            "rx": "0.00",
+            "ry": "0.00",
+            "rz": "90.00",
+            "visible": "false",
+            "height": "0.014",
+            "widget-name": "Go Up"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493667335973",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667340113",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493667433955",
+                "filter-name": "upY",
+                "filter-body": "return JSON.parse(value) + (0.18 - 0.045)"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667343488",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493747972598",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-8",
+            "text": "Go Down",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "0.0000",
+            "y": "-0.155",
+            "z": "-0.0000",
+            "rx": "0.00",
+            "rz": "90.00",
+            "visible": "false",
+            "height": "0.014",
+            "widget-name": "Go Down"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493667446707",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667450268",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493667515873",
+                "filter-name": "downY",
+                "filter-body": "return JSON.parse(value) + (0.045 - 0.1)"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667453535",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493747984025",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DLabel-3",
+            "text": "Start      | Reset | Flip | Replace battery",
+            "textprops": "font: 42px Arial;fill:rgba(255, 255, 255, 1);stroke:rgba(255, 255, 255, 1)",
+            "scale": "1.0000",
+            "x": "0.0000",
+            "y": "0.1",
+            "z": "0.0000",
+            "rx": "0.00",
+            "ry": "0.00",
+            "rz": "0.00",
+            "height": "0.014",
+            "widget-name": "Speech Hints"
+          },
+          "name": "twx-dt-label",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493667123941",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667127425",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493667186414",
+                "filter-name": "startstopY",
+                "filter-body": "return JSON.parse(value) + (0.1 - 0.045)"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493667131270",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496337767248",
+              "source-type": "data",
+              "source-name": "hintText",
+              "source-item-type": "value",
+              "source-item-name": "hintText",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['hintText']",
+              "to-property": "text"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496341769978",
+              "source-type": "data",
+              "source-name": "hintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "hintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['hintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DImage-2",
+            "src": "Uploaded/android-microphone-white.png",
+            "scale": "1.0000",
+            "x": "-0.125",
+            "y": "0.1000",
+            "z": "0.0000",
+            "rx": "0.00",
+            "ry": "0.00",
+            "rz": "0.00",
+            "height": "0.014",
+            "widget-name": "Microphone"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1493751142728",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1493751271043",
+                "filter-name": "MicrophoneY",
+                "filter-body": "return JSON.parse(value) + (0.1 - 0.045)"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1493751145493",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496174374307",
+              "source-type": "data",
+              "source-name": "hintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "hintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['hintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496341973538",
+              "source-type": "data",
+              "source-name": "xposMicrophone",
+              "source-item-type": "value",
+              "source-item-name": "xposMicrophone",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xposMicrophone']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DImage-1",
+            "src": "Default/swiperight.svg",
+            "scale": "1.0000",
+            "x": "0.2600",
+            "y": "0.0467",
+            "z": "-0.004",
+            "rx": "-60.00",
+            "ry": "0.00",
+            "rz": "0.00",
+            "visible": "false",
+            "height": "0.02",
+            "widget-name": "Swipe right"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1496249585726",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496249667656",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496252461816",
+                "filter-name": "swipeRightX",
+                "filter-body": "return JSON.parse(value) + 0.26"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1496249671990",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496350037320",
+                "filter-name": "swipeRightY",
+                "filter-body": "return JSON.parse(value) + 0.002"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1496249676097",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496267576049",
+                "filter-name": "swipeRightZ",
+                "filter-body": "return JSON.parse(value) - 0.002"
+              },
+              "name": "twx-data-filter"
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DImage-4",
+            "src": "Default/swipeleft.svg",
+            "scale": "1.0000",
+            "x": "-0.2540",
+            "y": "0.045",
+            "z": "-0.0040",
+            "rx": "-60",
+            "ry": "0.00",
+            "rz": "0.00",
+            "visible": "false",
+            "height": "0.02",
+            "widget-name": "Swipe left"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1496252587193",
+              "source-type": "data",
+              "source-name": "xpos",
+              "source-item-type": "value",
+              "source-item-name": "xpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xpos']",
+              "to-property": "x"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496252622017",
+                "filter-name": "swipeLeftX",
+                "filter-body": "return JSON.parse(value) - 0.254"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1496252590649",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496349872276",
+                "filter-name": "swiptLeftY",
+                "filter-body": "return JSON.parse(value) + 0.002"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1496252594153",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496267933919",
+                "filter-name": "swipeLeftZ",
+                "filter-body": "return JSON.parse(value) - 0.004"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1496252778462",
+              "source-type": "data",
+              "source-name": "flyHintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "flyHintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['flyHintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DImage-5",
+            "src": "Default/doubletap.svg",
+            "scale": "1.0000",
+            "x": "-0.045",
+            "y": "0.1000",
+            "z": "0.0000",
+            "rx": "0.00",
+            "ry": "0.00",
+            "rz": "0.00",
+            "height": "0.016",
+            "widget-name": "Double tap"
+          },
+          "name": "twx-dt-image",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1496262535676",
+              "source-type": "data",
+              "source-name": "hintsVisible",
+              "source-item-type": "value",
+              "source-item-name": "hintsVisible",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['hintsVisible']",
+              "to-property": "visible"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496262555918",
+              "source-type": "data",
+              "source-name": "ypos",
+              "source-item-type": "value",
+              "source-item-name": "ypos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['ypos']",
+              "to-property": "y"
+            },
+            "name": "twx-databind",
+            "children": [{
+              "attributes": {
+                "filter-id": "df-1496262580950",
+                "filter-name": "doubleTapStartY",
+                "filter-body": "return JSON.parse(value) + (0.1 - 0.045)"
+              },
+              "name": "twx-data-filter"
+            }]
+          }, {
+            "attributes": {
+              "databind-id": "db-1496262558998",
+              "source-type": "data",
+              "source-name": "zpos",
+              "source-item-type": "value",
+              "source-item-name": "zpos",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['zpos']",
+              "to-property": "z"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1496341336952",
+              "source-type": "data",
+              "source-name": "xposDoubleTap",
+              "source-item-type": "value",
+              "source-item-name": "xposDoubleTap",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['xposDoubleTap']",
+              "to-property": "x"
+            },
+            "name": "twx-databind"
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "w320dp",
+    "spatial-tracking"
+  ],
+  "experiences": [
+    {
+      "index-keys": [],
+      "title": {
+        "en": "Spatial Tracking"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expIndex=0#/Home",
+      "thumbnail": "public/Uploaded/thumbnail_spatial.png",
+      "experienceType": "none"
+    }
+  ],
+  "accessType": "public"
+}
