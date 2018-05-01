@@ -1,0 +1,321 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [{
+    "attributes": {
+      "id": "vumark",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "ThingMark",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "template",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "Thing Template",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "thing",
+      "isbound": "false",
+      "isdeletable": "false",
+      "name": "Thing",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "ry",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "ry",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "tiltZ",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "tiltZ",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "xpos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "xpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "ypos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "ypos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "zpos",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "zpos",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "tiltX",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "tiltX",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "flyHintsVisible",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "flyHintsVisible",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "hintsVisible",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "hintsVisible",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "markerRotation",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "markerRotation",
+      "value": "0"
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "hintText",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "hintText",
+      "value": "Start      | Reset | Flip | Replace battery"
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "doubleTapOffset",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "doubleTapOffset",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "xposDoubleTap",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "xposDoubleTap",
+      "value": "-0.065"
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "microphoneOffset",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "microphoneOffset",
+      "value": ""
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "id": "xposMicrophone",
+      "isbound": "false",
+      "isdeletable": "true",
+      "name": "xposMicrophone",
+      "value": "-0.108"
+    },
+    "name": "twx-app-param"
+  }, {
+    "attributes": {
+      "name": "doubletap",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": "viewCtrl.toggleCopterState();"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "swipeleft",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": "viewCtrl.goForward();",
+      "voicealias": "go forward",
+      "voiceresponse": "going forward"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "swiperight",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": "viewCtrl.goBackward();",
+      "voicealias": "go backward",
+      "voiceresponse": "going backward"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "swipeforward",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": ""
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "swipeback",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": "",
+      "voiceresponse": ""
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "swipeup",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": ""
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "hold",
+      "isdeletable": "false",
+      "isvoicealiasable": "true",
+      "expression": ""
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "startCopter",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "expression": "viewCtrl.startCopter();",
+      "voicealias": "start",
+      "voiceresponse": "starting copter"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "stopCopter",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "voicealias": "stop",
+      "expression": "viewCtrl.stopCopter();",
+      "voiceresponse": "stopping copter"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "goLeft",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "voicealias": "go left",
+      "expression": "viewCtrl.goLeft();",
+      "voiceresponse": "going left"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "goRight",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "expression": "viewCtrl.goRight();",
+      "voicealias": "go right",
+      "voiceresponse": "going right"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "goUp",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "expression": "viewCtrl.goUp();",
+      "voicealias": "go up",
+      "voiceresponse": "going up"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "goDown",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "expression": "viewCtrl.goDown();",
+      "voicealias": "go down",
+      "voiceresponse": "going down"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "replaceBattery",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "voicealias": "replace battery",
+      "voiceresponse": "showing battery replacement procedure",
+      "expression": ""
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "resetCopter",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "voicealias": "reset",
+      "voiceresponse": "resetting copter back to its initial location",
+      "expression": "viewCtrl.resetCopter();"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "stayCopter",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "voicealias": "stay",
+      "voiceresponse": "staying",
+      "expression": "viewCtrl.stayCopter();"
+    },
+    "name": "twx-app-event"
+  }, {
+    "attributes": {
+      "name": "flipCopter",
+      "isvoicealiasable": "true",
+      "isdeletable": "true",
+      "voicealias": "flip",
+      "voiceresponse": "changing orientation",
+      "expression": "viewCtrl.flipCopter();"
+    },
+    "name": "twx-app-event"
+  }],
+  "name": "twx-app-mdl"
+}

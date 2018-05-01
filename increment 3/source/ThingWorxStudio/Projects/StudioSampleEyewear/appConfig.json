@@ -1,0 +1,58 @@
+{
+  "name": "Studio Sample - HoloLens Experience",
+  "description": "Fly a quadcopter hands-free! Publish the Eyewear Experience and view it on a HoloLens.",
+  "sortOrder": 30,
+  "projectType": "eyewear",
+  "viewType": "ar",
+  "fileName": "StudioSampleEyewear",
+  "thingworxServer": "https://f79c3rnw.studio-trial.thingworx.io",
+  "mainNavigationMenuStyle": "noMenu",
+  "guidanceURL": "resource/StudioSampleEyewear/src/phone/guidance/guidance.html",
+  "device": {
+    "name": "eyewear",
+    "width": "1268px",
+    "height": "720px"
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "version": "1.23.1015",
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ],
+      "fragments": []
+    }
+  },
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "theme": "twx-light",
+  "thumbnail": "Uploaded/gallery_thumbnail_holo_copter.png"
+}

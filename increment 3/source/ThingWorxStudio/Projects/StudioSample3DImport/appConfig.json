@@ -1,0 +1,67 @@
+{
+  "name": "Studio Sample - Import 3D Data",
+  "description": "Make the Experience yours, and add your own 3D data.",
+  "sortOrder": 20,
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "StudioSample3DImport",
+  "mainNavigationMenuStyle": "noMenu",
+  "mainNavigationMenuItems": [],
+  "theme": "twx-light",
+  "hideExperienceHeader": false,
+  "guidanceURL": "resource/StudioSample3DImport/src/phone/guidance/guidance.html",
+  "resourceDirectory": "src/phone/resources",
+  "version": "1.23.1015",
+  "device": {
+    "name": "phone",
+    "width": "713px",
+    "height": "402px"
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "Choice",
+          "fileName": "Choice",
+          "showInMainMenu": true,
+          "viewType": "mobile-2D",
+          "title": "Choice"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ],
+      "fragments": []
+    }
+  },
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceRuntimeDir": "app/resources",
+  "thumbnail": "Uploaded/3D-thumbnail.png",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "thingworxServer": "https://f79c3rnw.studio-trial.thingworx.io"
+}

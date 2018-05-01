@@ -1,0 +1,30 @@
+{
+  "requires": [
+    "w320dp"
+  ],
+  "experiences": [
+    {
+      "index-keys": [
+        "urn:vuforia:vumark:18842:1"
+      ],
+      "title": {
+        "en": "My 3D Model"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Choice",
+      "url-template": "index.html?expIndex=0#/Choice",
+      "thumbnail": "public/Uploaded/3D-thumbnail.png",
+      "experienceType": "vumark",
+      "vumark": "18842:1"
+    }
+  ],
+  "accessType": "public"
+}

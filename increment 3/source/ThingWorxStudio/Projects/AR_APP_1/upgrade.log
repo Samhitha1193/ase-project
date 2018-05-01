@@ -1,0 +1,40 @@
+2018-04-24T01:09:07.411Z - debug: [twx-studio:upgrade:AR_APP_1] Begin upgrade of project AR_APP_1
+2018-04-24T01:09:07.435Z - info: [twx-studio:upgrade:AR_APP_1] Upgrading project AR APP 1 C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1 from 8.2.2.3099 (1.23.1015) to 8.2.2.3099 (1.24.1079)
+2018-04-24T01:09:07.699Z - debug: [twx-studio:upgrade:AR_APP_1] Make sure there are not any stale files lying around
+2018-04-24T01:09:07.703Z - debug: [twx-studio:upgrade:AR_APP_1] Removing  C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1/css/
+2018-04-24T01:09:07.747Z - debug: [twx-studio:upgrade:AR_APP_1] Removing  C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1/dist/
+2018-04-24T01:09:07.987Z - debug: [twx-studio:upgrade:AR_APP_1] Removing  C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1/extensions/
+2018-04-24T01:09:07.999Z - debug: [twx-studio:upgrade:AR_APP_1] Removing  C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1/src/phone/resources/Default/
+2018-04-24T01:09:08.031Z - debug: [twx-studio:upgrade:AR_APP_1] Removing  C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1/theme/
+2018-04-24T01:09:08.067Z - debug: [twx-studio:upgrade:AR_APP_1] Merging  C:\Users\SWATI\AppData\Roaming\ThingworxStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\ar\.gitignore.template with C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1\.gitignore
+2018-04-24T01:09:08.067Z - debug: [twx-studio:upgrade:AR_APP_1] Original contents of C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1\.gitignore
+#-- BEGIN OOTB GITIGNORE --#
+# Do not modify contents between BEGIN and END, it will be replaced on upgrade
+#-- ignore everything
+/*
+#-- unignore files that should be source controlled
+!.gitignore
+!appConfig.json
+!/src/
+!upgrade*.log
+#-- re-ignore default resources
+/src/phone/resources/Default/**
+#-- END OOTB GITIGNORE --#
+
+2018-04-24T01:09:08.075Z - debug: [twx-studio:upgrade:AR_APP_1] Copying /src/**/* to project, overwrite=false
+2018-04-24T01:09:08.159Z - debug: [twx-studio:upgrade:AR_APP_1] Copying /**/* to project, skip /src/**/*,  overwrite=true
+2018-04-24T01:09:08.695Z - debug: [twx-studio:upgrade:AR_APP_1] Copy of project files complete
+2018-04-24T01:09:08.695Z - debug: [twx-studio:upgrade:AR_APP_1] Updating version to  8.2.2.3099 (1.24.1079)
+2018-04-24T01:09:08.695Z - debug: [twx-studio:upgrade:AR_APP_1] onupgrade sucessful, now build the project
+2018-04-24T01:09:08.695Z - debug: [twx-studio:upgrade:AR_APP_1] BEGIN buildApp AR_APP_1_1524532148695
+2018-04-24T01:09:08.695Z - debug: [twx-studio:upgrade:AR_APP_1] write settings
+2018-04-24T01:09:08.707Z - debug: [twx-studio:upgrade:AR_APP_1] copy runtime extensions
+2018-04-24T01:09:10.007Z - debug: [twx-studio:upgrade:AR_APP_1] packageThemeSet
+2018-04-24T01:09:13.495Z - debug: [twx-studio:upgrade:AR_APP_1] onBuild
+2018-04-24T01:09:13.499Z - info: [twx-studio:upgrade:AR_APP_1] Building ves-ar-extension app: AR APP 1
+2018-04-24T01:09:14.355Z - debug: [twx-studio:upgrade:AR_APP_1] pathDir C:\Users\SWATI\Documents\ThingWorxStudio\Projects\AR_APP_1
+2018-04-24T01:09:14.355Z - debug: [twx-studio:upgrade:AR_APP_1] scaffoldDir C:\Users\SWATI\AppData\Roaming\ThingworxStudio\studio-download.vuforia.io\node_modules\ves-ar-extension\src\src-scaffold
+2018-04-24T01:09:14.355Z - debug: [twx-studio:upgrade:AR_APP_1] copySrc
+2018-04-24T01:09:19.297Z - debug: [twx-studio:upgrade:AR_APP_1] buildApp
+2018-04-24T01:09:19.835Z - debug: [twx-studio:upgrade:AR_APP_1] END buildApp AR_APP_1_1524532148695
+2018-04-24T01:09:19.835Z - debug: [twx-studio:upgrade:AR_APP_1] Build succeeded.

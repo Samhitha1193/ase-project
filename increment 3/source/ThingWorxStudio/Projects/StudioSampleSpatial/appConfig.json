@@ -1,0 +1,59 @@
+{
+  "name": "Studio Sample - Spatial Tracking",
+  "description": "Use AR anywhere! Create and publish an Experience that uses spatial tracking.",
+  "sortOrder": 40,
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "StudioSampleSpatial",
+  "version": "1.23.1015",
+  "device": {
+    "name": "phone",
+    "width": "713px",
+    "height": "402px"
+  },
+  "state": {
+    "orientation": "landscape"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ],
+      "fragments": []
+    }
+  },
+  "mainNavigationMenuStyle": "noMenu",
+  "previewUrl": "/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "hideExperienceHeader": true,
+  "guidanceURL": "resource/StudioSampleSpatial/src/phone/guidance/guidance.html",
+  "resourceDirectory": "src/phone/resources",
+  "resourceRuntimeDir": "app/resources",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "theme": "twx-light",
+  "thumbnail": "Uploaded/thumbnail_spatial.png",
+  "thingworxServer": "https://f79c3rnw.studio-trial.thingworx.io"
+}

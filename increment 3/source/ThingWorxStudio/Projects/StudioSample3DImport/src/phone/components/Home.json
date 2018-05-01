@@ -1,0 +1,322 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "viewtype": "ar",
+    "widget-name": "view-1",
+    "is-widget-container": "true"
+  },
+  "children": [{
+    "name": "twx-container-content",
+    "children": [{
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "x-589b242d-bcc7-48de-a72b-95ac40f62493",
+        "widget-name": "3D Container",
+        "is-widget-container": "true"
+      },
+      "name": "twx-dt-view",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "thingMark-1",
+            "width": "0.05",
+            "rx": "-90",
+            "tracking-indicator": "false",
+            "widget-name": "ThingMark"
+          },
+          "name": "twx-dt-target",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1475162026231",
+              "source-type": "data",
+              "source-name": "vumark",
+              "source-item-type": "value",
+              "source-item-name": "vumark",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['vumark']",
+              "to-property": "markerId"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1484001981087",
+              "source-type": "data",
+              "source-name": "markerRotation",
+              "source-item-type": "value",
+              "source-item-name": "markerRotation",
+              "binding-type": "custom_field",
+              "from-expression": "app.params['markerRotation']",
+              "to-property": "rx"
+            },
+            "name": "twx-databind"
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "model-1",
+            "widget-name": "My-3D-CAD-Model"
+          },
+          "name": "twx-dt-model",
+          "children": [{
+            "attributes": {
+              "databind-id": "db-1475179156982",
+              "source-type": "ui",
+              "source-label": "Slider",
+              "source-name": "scaleSlider",
+              "source-item-type": "property",
+              "source-item-name": "value",
+              "from-expression": "view.wdg['scaleSlider']['value']",
+              "to-property": "scale"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1475179385385",
+              "source-type": "ui",
+              "source-label": "Slider",
+              "source-name": "transpSlider",
+              "source-item-type": "property",
+              "source-item-name": "value",
+              "from-expression": "view.wdg['transpSlider']['value']",
+              "to-property": "opacity"
+            },
+            "name": "twx-databind"
+          }, {
+            "attributes": {
+              "databind-id": "db-1475179417047",
+              "source-type": "ui",
+              "source-label": "Slider",
+              "source-name": "rotSlider",
+              "source-item-type": "property",
+              "source-item-name": "value",
+              "from-expression": "view.wdg['rotSlider']['value']",
+              "to-property": "ry"
+            },
+            "name": "twx-databind"
+          }]
+        }]
+      }]
+    }, {
+      "attributes": {
+        "twx-widget": "",
+        "widget-id": "2DOverlay-1",
+        "widget-name": "2D Overlay",
+        "is-widget-container": "true"
+      },
+      "name": "twx-overlay",
+      "children": [{
+        "name": "twx-container-content",
+        "children": [{
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-1",
+            "position": "top",
+            "widget-name": "Top Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "resourceImage-1",
+                "class": "watermark scaled-logo rounded-corners",
+                "imgsrc": "Uploaded/thingworx-studio-logo.png",
+                "width": "",
+                "height": "48px",
+                "widget-name": "HeaderLogo"
+              },
+              "name": "twx-image2"
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "2DOverlayBody-1",
+            "widget-name": "2D Body",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-body",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-2",
+                "position": "left",
+                "widget-name": "Left Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-3",
+                "position": "center",
+                "widget-name": "Center Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }, {
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "panel-4",
+                "position": "right",
+                "widget-name": "Right Panel",
+                "is-widget-container": "true"
+              },
+              "name": "twx-overlay-container",
+              "children": [{
+                "name": "twx-container-content"
+              }]
+            }]
+          }]
+        }, {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "panel-5",
+            "position": "bottom",
+            "widget-name": "Bottom Panel",
+            "is-widget-container": "true"
+          },
+          "name": "twx-overlay-container",
+          "children": [{
+            "name": "twx-container-content",
+            "children": [{
+              "attributes": {
+                "twx-widget": "",
+                "widget-id": "gridLayout-1",
+                "widget-name": "gridLayout-1",
+                "is-widget-container": "true"
+              },
+              "name": "twx-gridlayout",
+              "children": [{
+                "name": "twx-container-content",
+                "children": [{
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "row-1",
+                    "widget-name": "row-1",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-row",
+                  "children": [{
+                    "name": "twx-container-content",
+                    "children": [{
+                      "attributes": {
+                        "twx-widget": "",
+                        "widget-id": "column-1",
+                        "flexdirection": "row",
+                        "justification": "center",
+                        "alignment": "center",
+                        "wrap": "no-wrap",
+                        "padding": "",
+                        "widget-name": "column-1",
+                        "is-widget-container": "true"
+                      },
+                      "name": "twx-col",
+                      "children": [{
+                        "name": "twx-container-content",
+                        "children": [{
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "scaleToggle",
+                            "class": "toggle-button rounded-corners",
+                            "src": "Uploaded/scale-on.png",
+                            "srcnotpressed": "Uploaded/scale-off.png",
+                            "background-color": "#ececec",
+                            "background-color-pressed": "#ffffff",
+                            "widget-name": "Scale Toggle",
+                            "pressed-expression": "show(1)"
+                          },
+                          "name": "twx-toggle-button"
+                        }, {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "rotToggle",
+                            "class": "toggle-button rounded-corners",
+                            "pressed": "true",
+                            "notpressed": "false",
+                            "src": "Uploaded/rotate-on.png",
+                            "srcnotpressed": "Uploaded/rotate-off.png",
+                            "background-color": "#ececec",
+                            "background-color-pressed": "#ffffff",
+                            "widget-name": "Rotation Toggle",
+                            "pressed-expression": "show(2)"
+                          },
+                          "name": "twx-toggle-button"
+                        }, {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "transpToggle",
+                            "class": "toggle-button rounded-corners",
+                            "src": "Uploaded/opacity-on.png",
+                            "srcnotpressed": "Uploaded/opacity-off.png",
+                            "background-color": "#ececec",
+                            "background-color-pressed": "#ffffff",
+                            "widget-name": "Transparency Toggle",
+                            "pressed-expression": "show(3)"
+                          },
+                          "name": "twx-toggle-button"
+                        }, {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "scaleSlider",
+                            "class": "slider-control rounded-corners",
+                            "min": "0.1",
+                            "max": "5",
+                            "step": "0.1",
+                            "value": "1",
+                            "visible": "false",
+                            "widget-name": "Scale Slider"
+                          },
+                          "name": "twx-range"
+                        }, {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "rotSlider",
+                            "class": "slider-control rounded-corners",
+                            "max": "360",
+                            "step": "10",
+                            "value": "0",
+                            "widget-name": "Rotation Slider"
+                          },
+                          "name": "twx-range"
+                        }, {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "transpSlider",
+                            "class": "slider-control rounded-corners",
+                            "max": "1",
+                            "step": "0.1",
+                            "value": "1",
+                            "visible": "false",
+                            "widget-name": "Transparency Slider"
+                          },
+                          "name": "twx-range"
+                        }]
+                      }]
+                    }]
+                  }]
+                }]
+              }]
+            }]
+          }]
+        }]
+      }]
+    }]
+  }, {
+    "name": "twx-view-data"
+  }],
+  "name": "twx-view"
+}

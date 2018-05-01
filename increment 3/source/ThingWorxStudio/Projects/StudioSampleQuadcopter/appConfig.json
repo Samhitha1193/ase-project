@@ -1,0 +1,67 @@
+{
+  "name": "Studio Sample - Quadcopter",
+  "description": "Your AR journey begins here! Publish an AR Experience and fly a quadcopter in just minutes.",
+  "sortOrder": 10,
+  "projectType": "AR",
+  "viewType": "ar",
+  "fileName": "StudioSampleQuadcopter",
+  "mainNavigationMenuStyle": "noMenu",
+  "mainNavigationMenuItems": [],
+  "theme": "twx-light",
+  "hideExperienceHeader": false,
+  "resourceDirectory": "src/phone/resources",
+  "guidanceURL": "resource/StudioSampleQuadcopter/src/phone/guidance/guidance.html",
+  "version": "1.23.1015",
+  "device": {
+    "name": "phone",
+    "width": "402px",
+    "height": "713px"
+  },
+  "state": {
+    "orientation": "portrait"
+  },
+  "targets": {
+    "phone": {
+      "components": [
+        {
+          "name": "Home",
+          "fileName": "Home",
+          "showInMainMenu": true,
+          "viewType": "ar",
+          "title": "Home"
+        },
+        {
+          "name": "Choice",
+          "fileName": "Choice",
+          "showInMainMenu": true,
+          "viewType": "mobile-2D",
+          "title": "Choice"
+        }
+      ],
+      "images": []
+    },
+    "shared": {
+      "components": [
+        {
+          "name": "Data",
+          "fileName": "Data"
+        }
+      ],
+      "images": [],
+      "styles": [
+        {
+          "name": "App",
+          "fileName": "App",
+          "fileExt": "scss"
+        }
+      ],
+      "fragments": []
+    }
+  },
+  "previewUrl": "http://localhost:3000/preview.html?project=${project}&format=${format}&orientation=${orientation}&phone=true",
+  "resourceRuntimeDir": "app/resources",
+  "thumbnail": "Uploaded/gallery_thumbnail_drone.png",
+  "fontRuntimeDir": "../fonts",
+  "fontDesigntimeDir": "../dist/phone/fonts",
+  "thingworxServer": "https://f79c3rnw.studio-trial.thingworx.io"
+}

@@ -1,0 +1,38 @@
+{
+  "proxyServer": "",
+  "thingServer": "https://f79c3rnw.studio-trial.thingworx.io",
+  "thingServerHistory": [
+    "https://f79c3rnw.studio-trial.thingworx.io"
+  ],
+  "recentProjects": [
+    "AR_APP_1",
+    "Test3",
+    "StudioSampleQuadcopter",
+    "StudioSample3DImport",
+    "StudioSampleEyewear",
+    "StudioSampleSpatial"
+  ],
+  "importedSampleProjects": [
+    "StudioSampleQuadcopter",
+    "StudioSampleSpatial",
+    "StudioSampleEyewear",
+    "StudioSample3DImport"
+  ],
+  "acceptedLicense": true,
+  "autoConfigureDismissed": true,
+  "dev_portal_url": "https://studio.thingworx.com/api/v1",
+  "thingmarkDomain": 18842,
+  "thingmarks": {
+    "svg": {
+      "18842:3": "/thingmarks/18842-3.svg",
+      "18842:1": "/thingmarks/18842-1.svg",
+      "18842:2": "/thingmarks/18842-2.svg"
+    },
+    "png": {
+      "18842:2": "/thingmarks/18842-2.png",
+      "18842:1": "/thingmarks/18842-1.png",
+      "18842:3": "/thingmarks/18842-3.png"
+    }
+  },
+  "enableDebugLogging": true
+}
